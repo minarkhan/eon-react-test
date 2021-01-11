@@ -1,0 +1,56 @@
+.imgsize {
+  border-radius: 50%;
+}
+.cusborder {
+  border-right: 1px dashed #e2e2e2;
+  border-width: 2px;
+}
+.iconStyle {
+  border-radius: 50%;
+  padding: 10px;
+  background: #eaeaea;
+}
+
+.conpadd {
+  padding: 30px 20px 30px 20px;
+  background: white;
+}
+.navborder {
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+}
+
+.activenav {
+  border-bottom: 1px solid #fa0000;
+}
+.bordernone {
+  border: none;
+  border: 2px solid white;
+}
+
+.btngrad {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+.btngrad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btngrad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

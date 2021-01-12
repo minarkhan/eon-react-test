@@ -16,6 +16,7 @@ function shuffle(arra1) {
   return arra1;
 }
 
+
 function ArrList({datas}) {
   const [list, setList] = useState(datas);
   useEffect(() => {
@@ -28,6 +29,7 @@ function ArrList({datas}) {
     setList(changes);
     console.log("Shuffle", datas);
   }
+  
   return (
     <div>
       {list.map((x, i) => (

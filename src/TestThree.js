@@ -90,9 +90,25 @@ const Profile = () => {
           width={1000}
           src="http://localhost:3000/HR_employee.png"
         />
+        
       </Col>
     </Row>
-     */}
+    <Layout>
+      <Header>Hte</Header>
+      <Content>conter</Content>
+      <Footer>footer</Footer>
+    </Layout>
+    <Row justify="center">
+      <Col span={20}>
+        <Card title="Default size card" extra={<a href="#">More</a>} style={{ width: 1000 }}>
+        <Image
+          width={50}
+          src="http://localhost:3000/formal.jpg"
+        />
+        <Content style={{ width: 100, float:'left' }} ><h1>Mianrkhan</h1>this is content</Content>
+        </Card>
+      </Col>
+    </Row> */}
     
     </>
   );

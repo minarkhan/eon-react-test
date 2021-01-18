@@ -1,0 +1,25 @@
+img.img-thumbnail {
+    border-radius: 50%;
+}
+.col-md-6.cusborder{
+    border-right: 1px dashed gray;
+    border-width: 2px;
+}
+i.fas.fa-pencil-alt {
+    border-radius: 50%;
+    padding: 10px;
+    background: #eaeaea;
+}
+
+.row.conpadd {
+    padding: 30px 20px 30px 20px;
+    background: white;
+}
+.col-md-12.bg-light {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+}
+
+li.nav-item.active {
+    border-bottom: 1px solid #fa0000;
+}
